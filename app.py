@@ -14,7 +14,7 @@ openai.api_key = openai_api_key
 
 # Function to generate Taylor Swift-like song lyrics
 def generate_taylor_swift_lyrics(title):
-    prompt = f"Generate lyrics for the song '{title}' in the style of Taylor Swift."
+    prompt = f"Generate Taylor Swift lyrics for the song '{title}"
     response = openai.Completion.create(
         engine="gpt-3.5-turbo-instruct",
         prompt=prompt,
